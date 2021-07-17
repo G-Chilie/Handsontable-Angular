@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialUiModule } from './utilities/material-ui.module';
+import { HotTableModule } from '@handsontable/angular';
+
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,8 @@ import { MaterialUiModule } from './utilities/material-ui.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialUiModule
+    MaterialUiModule,
+    HotTableModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
