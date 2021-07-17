@@ -11,14 +11,14 @@ import { HotTableModule } from '@handsontable/angular';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialUiModule,
-    HotTableModule.forRoot()
+    HotTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
